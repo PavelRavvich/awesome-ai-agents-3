@@ -364,6 +364,7 @@ Autonomous financial agents interacting natively with blockchain nodes, executin
 
 | Repository | Description | Stack | Engine | Deployment | Link |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Agent Payment Node** | Local CLI and stdio MCP payment runtime; signing requires foreground owner approval on macOS Apple Silicon. | TypeScript / Node 24 | N/A | CLI | [Link](https://github.com/nuanu-ai/agent-payment-node) |
 | **Eliza** | Specialized multi-agent framework tailored for interacting with crypto endpoints, executing DeFi operations, and orchestrating decentralized DAOs. | TypeScript | Hybrid | Node | [Link](https://github.com/elizaOS/eliza) |
 | **Rig** | Rust-native ecosystem building secure Web3 agents capable of deterministic contract execution and complex state transitions. | Rust | Hybrid | Node | [Link](https://github.com/0xPlaygrounds/rig) |
 | **Goat** | The Great Open Agent Toolkit. Middleware connecting off-chain AI reasoning with on-chain EVM transactional networks. | TypeScript | Hybrid | Web UI | [Link](https://github.com/goat-sdk/goat) |
