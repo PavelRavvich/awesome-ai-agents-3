@@ -204,6 +204,7 @@ Tracing, monitoring, and debugging agent executions in production.
 | **Braintrust** | Evaluation framework for scoring agent outputs against golden datasets with automatic regression detection. | TypeScript | API-based | Web UI | [Link](https://github.com/braintrustdata/braintrust-sdk) |
 | **antiburn** | Local desktop app that checks coding agent sessions for common causes of token burn: sessions too deep, overpowered subagents, broken caching, and unused MCP servers, skills, and tools. Supports Claude Code, Codex, Cursor, Copilot, Pi, and more. | Rust/Tauri | N/A | App | [Link](https://github.com/antiburn/antiburn) |
 | **OrcaReplay** | Local record-and-replay proxy for agent runs: captures provider traffic (prompts, tool calls, responses) into a trace and replays the run from it without calling the provider again, for deterministic debugging and regression diffs. | TypeScript/Node | Hybrid | CLI | [Link](https://github.com/Continuum-AI-Corp/OrcaReplay) |
+| **Self-Auditing Agent** | Public audit log for an agent's own claims: each recorded conclusion links a runnable command a third party can execute, so the process is reviewable rather than just its output. Ships gatecheck, a mutation tester that runs 175 mutations against the project's own validator and reports the ones it fails to catch. | Python | N/A | CLI | [Link](https://github.com/simin-yuan/self-auditing-agent) |
 
 ---
 
